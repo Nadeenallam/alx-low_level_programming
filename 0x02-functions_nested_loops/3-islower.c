@@ -7,7 +7,7 @@
  * @c: checks inputs of function
  *
  * Return: returns 1 if `c` is lowercase
- * otherwise always 0 (Success)
+ * otherwise Always 0 (Success)
 */
 
 int _islower(int c)
