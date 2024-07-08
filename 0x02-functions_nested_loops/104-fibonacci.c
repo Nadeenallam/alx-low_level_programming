@@ -40,8 +40,8 @@ int main(void)
 	for (count = 1; count <= 98; count++)
 	{
 		if (f1o > 0)
-			printf("%lu", flo);
-		initial0s = numLength(mx) - 1 - numLenght(f1);
+			printf("%lu", f1o);
+		initia10s = numLength(mx) - 1 - numLength(f1);
 
 		while (f1o > 0 && intia10s > 0)
 		{
