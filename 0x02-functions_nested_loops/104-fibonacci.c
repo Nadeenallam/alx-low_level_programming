@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * numlength - returns the length of string
+ * numLength - returns the length of string
  *
  * @num: operand number
  *
  * Return: number of digits
 */
 
-int numlength(int num)
+int numLength(int num)
 {
 	int length = 0;
 
@@ -34,19 +34,19 @@ int numlength(int num)
 
 int main(void)
 {
-	int count, intial0s;
-	unsigned long f1 = 1, f2 = 2, sum, mx 100000000, f1o = 0, f2o = 0, sumo = 0;
+	int count, intia10s;
+	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
 
 	for (count = 1; count <= 98; count++)
 	{
 		if (f1o > 0)
 			printf("%lu", flo);
-		initial0s = numLength(mx) - 1 - numlenght(f1);
+		initial0s = numLength(mx) - 1 - numLenght(f1);
 
-		while (f10 > 0 && intial0s > 0)
+		while (f1o > 0 && intia10s > 0)
 		{
 			printf("%d", 0);
-			intial0s--;
+			intia10s--;
 		}
 
 		printf("%lu", f1);
