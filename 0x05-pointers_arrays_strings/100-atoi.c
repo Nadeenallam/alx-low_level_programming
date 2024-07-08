@@ -5,7 +5,7 @@
  *
  * @s: string input parameter
  *
- * Return: converted integer from string
+ * Return: converted integeration string
 */
 
 int _atoi(char *s)
@@ -14,7 +14,7 @@ int _atoi(char *s)
 	int sign = 1;
 
 	do {
-		if (*s == ' ')
+		if (*s == '-')
 			sign *= -1;
 		else if (*s >= '0' && *s <= '9')
 			num = (num * 10) + (*s - '0');
