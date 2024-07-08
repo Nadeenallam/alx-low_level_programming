@@ -29,3 +29,4 @@ int main(void)
 	printf("%.0f\n", total_sum);
 
 	return (0);
+}
