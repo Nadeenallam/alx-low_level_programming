@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - print sum of 2 numbers
- * @argc: number of commandline arguments
+ * main - print the multiple of 2 numbers
+ * @argc: number of commandline argument
  * @argv: pointer to an array of command line arguments
- * Return: 0 success
+ * Return: 0 (success)
 */
 
 int main(int argc, char *argv[])
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		prinf("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 
