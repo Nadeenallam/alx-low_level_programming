@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <srdlib.h>
+#include <stdlib.h>
 
 /**
- * main - it all starts here
- * @argc: the number of arguments
- * @argv: array of pointers to arguments
- *
- * Return: Always 0.
+ * main - print sum of 2 numbers
+ * @argc: number of commandline arguments
+ * @argv: pointer to an array of command line arguments
+ * Return: Always 0 success
 */
 
 int main(int argc, char *argv[])
