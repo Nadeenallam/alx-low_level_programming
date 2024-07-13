@@ -3,8 +3,8 @@
 
 /**
  * main - print sum of 2 numbers
- * @argc:number of commandline arguments
- * @argv:pointer to an array of command line arguments
+ * @argc: number of commandline arguments
+ * @argv: pointer to an array of command line arguments
  * Return: 0 success
 */
 
