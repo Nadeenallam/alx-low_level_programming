@@ -21,10 +21,12 @@ char *_strdup(char *str)
 
 	if (m == 0)
 		return (NULL);
-	for (size = 0; str[size] != '\0'; size++)
-		m[size] = str[size];
-
-	m[size] = '\0';
-
+	if
+	{
+		for (; i < size; i++)
+			m[i] = str[i];
+	}
 	return (m);
+
+
 }
