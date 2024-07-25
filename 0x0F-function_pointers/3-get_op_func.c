@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - returns poimter yo the right op func
+ * get_op_func - returns poimter to the right op func
  * @s: string operator
  *
  * Return: the right function pointer
@@ -20,7 +20,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-		if (s && s[0] == ops[i].op[0] && ~s[1])
+		if (s && s[0] == ops[i].op[0] && !s[1])
 			return (ops[i].f);
 		i++;
 	}

@@ -9,12 +9,12 @@
 */
 int op_add(int a, int b)
 {
-	return(a + b);
+	return (a + b);
 }
 
 /**
- * op_sub -subtract two integers
- * @a: te first int
+ * op_sub - subtract two integers
+ * @a: the first int
  * @b: the second int
  *
  * Return: the difference
@@ -25,11 +25,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_div divides two integes
+ * op_mul -  multiple two integes
  * @a: the fisrt int
  * @b: the secount int
  *
- * Return: the quotient
+ * Return: the multibly
 */
 int op_mul(int a, int b)
 {
@@ -37,14 +37,24 @@ int op_mul(int a, int b)
 }
 /**
  * op_div - divides two integers
- * @a: the firdt int
+ * @a: the first int
  * @b: the secound int
  *
  * Return: the quotient
 */
-int op_dic(int a, intb)
+int op_div(int a, int b)
 {
 	return (a / b);
 }
-
+/**
+ * op_mod - modulo two integers
+ * @a: he first int
+ * @b: the second int
+ *
+ * Return: the remainer
+*/
+int op_mod(int a, int b)
+{
+	return (a % b);
+}
 
