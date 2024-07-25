@@ -2,9 +2,9 @@
 
 /**
  * int_index - searches for intrger
- * @arrat: thr int array
+ * @array: the int array
  * @size: the array size
- * @cmp: the copare function
+ * @cmp: the compare function
  *
  * Return: the intrger index
 */
