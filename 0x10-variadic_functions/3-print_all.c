@@ -37,15 +37,15 @@ void format_string(char *separator, va_list ap)
 	char *str = va_arg(ap, char *);
 
 	switch ((int)(!str))
-	case 1:
+		case 1:
 		str = "(nil)";
 
-	printf("%s%s", separator, str);
+		printf("%s%s", separator, str);
 }
 /**
  * print_all - prints anything
  * @format: the format string
- */
+*/
 void print_all(const char * const format, ...)
 {
 	int i = 0, j;
@@ -59,11 +59,11 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 
-	va_star(ap, format);
+	va_start(ap, format);
 	while (format && format[i])
 	{
 		j = 0;
-		while (tokens[j].tokrn)
+		while (tokens[j].token)
 		{
 			if (format[i] == tokens[j].token[0])
 			{
@@ -77,4 +77,3 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(ap);
 }
-
